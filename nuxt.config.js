@@ -1,6 +1,6 @@
 
 export default {
-  mode: 'universal',
+  mode: 'spa',
   /*
   ** Headers of the page
   */
@@ -43,7 +43,7 @@ export default {
   ],
 
   router: {
-    middleware: ['mobile']
+    middleware: 'mobile',
   },
   /*
   ** Axios module configuration
