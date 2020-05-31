@@ -1,6 +1,6 @@
 <template>
   <div>
-    Desctop
+    Mobile
     <nuxt />
   </div>
 </template>

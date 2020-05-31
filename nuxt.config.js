@@ -41,6 +41,10 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
   ],
+
+  router: {
+    middleware: ['mobile']
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
